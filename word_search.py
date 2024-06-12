@@ -18,8 +18,8 @@ def search_words(mask, excluded_letters, required_letters):
 
 # Пример использования:
 mask = '????т'
-excluded_letters = 'кроаеин' # '','','','',''
-required_letters = 'слт'
+excluded_letters = 'роаин' # '','','','',''
+required_letters = 'текс'
 
 result = search_words(mask, excluded_letters, required_letters)
 print(result)
